@@ -1,0 +1,23 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"mdtCoralReef" :
+             {
+				"name" : "Coral Reef",
+				"creatures" : [[ "mdtMermaid" ]],
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "dwellings/neutral/mermaiddw.def",
+						"mask" : [ "VVV", "VVV", "VBA" ],
+						"allowedTerrains": [ "water" ]
+					}
+				},
+				"sounds": {
+					"ambient": ["dwellings/neutral/LOOPMERM"]
+				}								
+            }
+		}
+	}
+}
